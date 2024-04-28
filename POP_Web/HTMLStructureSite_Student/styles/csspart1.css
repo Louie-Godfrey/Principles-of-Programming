@@ -1,0 +1,126 @@
+/*task1*/
+b
+{
+    color: #0000FF;
+    background-color: yellow;
+}
+/*task2*/
+#cssID
+{
+    color: rgb(127, 127, 127);
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #0000FF;
+}
+/*task3*/
+.cssArea1Class1
+{
+    text-align: center;
+}
+/*task4*/
+p.cssArea1Class2
+{
+    background-color:rgba(0, 255, 0, 20%);
+}
+/*task5*/
+div#divSibling~p
+{
+    font-family: monospace;
+    font-weight: bold;
+}
+/*task6*/
+#pseudoClass:hover
+{
+    color: #FF0000;
+    background-color: #ffff00;
+    font-family: serif;
+}
+/*task7*/
+#firstLine::first-line
+{
+    font-variant: small-caps;
+}
+/*task8*/
+#cssAttribute[target=_blank]
+{
+    font-size: 1.5em;
+}
+/*task9*/
+#namedColor
+{
+    color: tomato;
+}
+#hexColor
+{
+    color: #ff00ff;
+}
+#rgbColor
+{
+    color: rgb(33, 189, 6);
+}
+#rgbaColor
+{
+    color: rgba(33, 189, 6, 30%);
+}
+#hslColor
+{
+    color: hsl(266, 100%, 50%);
+}
+#hslaColor
+{
+    color: hsla(266, 100%, 50%, 30%);
+}
+/*task10*/
+ol
+{
+    font-family: Verdana;
+    background-color: #669977;
+    padding: 20px;
+}
+/*task11*/
+ol li
+{
+   background-color: #a9e0a9;
+   padding: 5px;
+   margin-left: 35px;
+}
+/*task12*/
+ol li+.highlighted
+{
+    color: white;
+    background-color: black;
+} 
+/*task13*/
+#bands
+{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+}
+/*task14*/
+#bands td
+{
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+    border-color: #ddd;
+    color: #669977;
+}
+/*task15*/
+#bands th
+{
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #669977;
+    color: white;
+}
+/*task16*/
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
